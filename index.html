@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Devicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Quicksand Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="">  
+
+  <div id="sidebar" class="side-navbar d-flex flex-column align-items-center bg-secondary-subtle position-fixed top-0 start-0 vh-100">
+    <button id="closeSidebar" class="btn text-dark position-absolute top-0 end-0 m-2">X</button>
+    <img src="./assets/images/profile.jpg" alt="Profile" class="profile-img mt-5 rounded-circle" width="150" height="150">
+    <a href="#" class="navbar-brand mt-4">Nishu Mehta</a>
+    <p class="text-muted">DATA ANALYST</p>
+    <ul class="nav flex-column text-center my-3">
+      <li class="nav-item"><a href="#home" class="nav-link">HOME</a></li>
+      <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
+      <li class="nav-item"><a href="#skills" class="nav-link">SKILLS</a></li>
+      <li class="nav-item"><a href="#education" class="nav-link">EDUCATION</a></li>
+      <li class="nav-item"><a href="#experience" class="nav-link">EXPERIENCE</a></li>
+      <li class="nav-item"><a href="#projects" class="nav-link">PROJECTS</a></li>
+      <li class="nav-item"><a href="#contact" class="nav-link">CONTACT</a></li>
+    </ul>
+    <div class="social-links mt-auto mb-5">
+      <a href="https://www.linkedin.com/in/nishu-mehta-9025a323b/" class="me-4"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/NishuMehta" class="me-4"><i class="fab fa-github"></i></a>
+      <a href="mailto:mehtanishu018@gmail.com" class=""><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+  
+  <!-- Toggle Button -->
+  <button id="sidebarToggle" class="btn text-dark d-lg-none position-fixed top-2 start-2">☰</button>
+  
+  <!-- Hero Section -->
+  <header id = "home" class="hero-section vh-100 d-flex align-items-center text-end pe-5 text-white" style="background: url('assets/images/bg-2.jpg') no-repeat center center/cover;">
+    <div class="container">
+      <h1 class="display-4">Hi! <br> I'm Nishu Mehta</h1>
+      <p class="lead">A Data Analyst</p>
+      <a href="#projects" class="btn btn-outline-danger mt-3">View My Work</a>
+    </div>
+  </header>
+
+  <!-- about section -->
+  <section id="about" class="px-2 px-md-5 py-5 bg-light">
+    <div class="container text-start p-sm-0 p-md-3 p-lg-5">
+      <p class="text-muted">WHO AM I?</p>
+      <h2 class="mb-4">About Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-12 py-5">
+          <p class="lead">Hi! I'm Nishu Mehta, a passionate data analytics enthusiast dedicated to transforming data into meaningful insights that drive informed business decisions. I am continuously exploring new tools and techniques in data analysis, enhancing my skills through hands-on projects using Python, SQL, Tableau, Power BI, and Excel.</p>
+          <p class="mt-3">I also have a strong foundation in building responsive and user-friendly websites using HTML, CSS, JavaScript, Bootstrap, and Django. Let’s create something impactful together!</p>
+          <p class="mt-3">Let's create something impactful together!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-2">
+          <div class="card rounded-0 shadow p-4">
+            <i class="bi bi-lightbulb" style="font-size: 2rem; color: #0d6efd;"></i>
+            <h5 class="mt-3">Data Analytics</h5>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-2">
+          <div class="card rounded-0 shadow p-4">
+            <i class="bi bi-laptop text-danger" style="font-size: 2rem; color: #dc3545;"></i>
+            <h5 class="mt-3">Web Development</h5>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-2">
+          <div class="card rounded-0 shadow p-4">
+            <i class="bi bi-bar-chart-line text-danger" style="font-size: 2rem; color: #ffc107;"></i>
+            <h5 class="mt-3">Machine Learning</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+    <!-- skills section -->
+  <section id="skills" class="px-2 px-md-5 py-5">
+    <div class="container text-start p-sm-0 p-md-3 p-lg-5">
+      <p class="text-muted">MY SPECIALTY</p>
+      <h2 class="mb-4">My Skills</h2>
+      <ul class="list-group list-group-flush fs-5 py-5">
+        <li class="list-group-item"><strong>Python:</strong> NumPy, Pandas, Matplotlib, Seaborn, Plotly, PyTorch, Scikit-learn, Django</li>
+        <li class="list-group-item"><strong>SQL:</strong> PostgreSQL</li>
+        <li class="list-group-item"><strong>Web Development:</strong> HTML, CSS, Bootstrap, JavaScript, Django</li>
+        <li class="list-group-item"><strong>Data Visualization:</strong> Power BI, Tableau</li>
+        <li class="list-group-item"><strong>Tools:</strong> MS Excel, Git, GitHub</li>
+        <li class="list-group-item"><strong>Programming:</strong> Java (Core Concepts, DSA)</li>
+      </ul>
+      <div class="col-md-12 pt-5 skill-icons" >
+        <img width="55px" height="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+        <img width="55px" height="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
+        <img width="55px" height="60px" src="https://img.icons8.com/ios/50/tableau-software.png" alt="tableau-software"/>
+        <img width="55px" height="60px" src="https://img.icons8.com/color/48/power-bi-2021.png" alt="power-bi-2021"/>
+        <img width="55px" height="60px" src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" alt="microsoft-excel-2019--v1"/>
+        <img width="55px" height="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+        <img width="55px" height="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+        <img width="55px" height="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+        <img width="55px" height="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
+        <img width="55px" height="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />
+      </div>
+    </div>
+  </section>
+    
+    <!-- education section -->
+    <section id="education" class="px-2 px-md-5 py-5 bg-light">
+      <div class="container text-start p-sm-0 p-md-3 p-lg-5 ">
+        <p class="text-muted">MY EDUCATION</p>
+        <h2 class="mb-4">Education</h2>
+        <div class="row py-5">
+          <div class="col-md-12 mb-4">
+            <div class="card shadow-sm p-4">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h4>B.Tech in Computer Science & Engineering</h4>
+                <span class="text-muted">7.57 CGPA</span>
+              </div>
+              <h6>Punjabi University, Patiala</h6>
+              <p class="text-muted">2023 - 2026</p>
+              <p>Relevant coursework: Data Structures, Algorithms, Machine Learning, Web Development.</p>
+            </div>
+          </div>
+          <div class="col-md-12 mb-4">
+            <div class="card shadow-sm p-4">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h4>Diploma in Computer Science & Engineering</h4>
+                <span class="text-muted">79.8%</span>
+              </div>
+              <h6>Thapar Polytechnic College, Patiala</h6>
+              <p class="text-muted">2020 - 2023</p>
+              <p>Science Stream with Computer Science and Mathematics.</p>
+            </div>
+          </div>
+          <div class="col-md-12 mb-4">
+            <div class="card shadow-sm p-4">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h4>Secondary School</h4>
+                <span class="text-muted">85.67%</span>
+              </div>
+              <h6>FCS Adarsh Sr Sec School, Sangrur</h6>
+              <p class="text-muted">2019 - 2020</p>
+              <p>Science Stream with Computer Science and Mathematics.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- experience section -->
+    <section id="experience" class="px-2 px-md-5 py-5">
+      <div class="container p-sm-0 p-md-3 p-lg-5 ">
+        <p class="text-muted">EXPERIENCE</p>
+        <h2 class="mb-4">Work Experience</h2>
+        <div class="row py-5">
+          <div class="col-md-12 mb-5 pt-3 border-bottom border-end rounded-3 border-secondary-subtle">
+            <div class="d-flex justify-content-between align-items-start mb-2">
+              <h4>Data Analytics Intern</h4>
+              <span class="text-muted text-end">Feb,2025 - Mar,2025</span>
+            </div>
+            <h6 class="text-secondary">Cloudcredits Technologies Pvt. Ltd.</h6>
+            <p>
+              <li>Utilized Python libraries (NumPy, Pandas, Matplotlib, Seaborn) for data cleaning, analysis, and visualization.</li>
+              <li>Implemented machine learning techniques such as Label Encoding, Linear Regression, and CatBoost Regressor for predictive analysis.</li>
+              <li>Conducted in-depth data analysis to extract insights and support business decisions.</li>
+            </p>
+          </div>
+          <div class="col-md-12 mb-5 pt-3 border-bottom border-end rounded-3 border-secondary-subtle">
+            <div class="d-flex justify-content-between align-items-start mb-2">
+              <h4>Data Analytics Intern</h4>
+              <span class="text-muted text-end">Dec,2024 - Jan,2025</span>
+            </div>
+            <h6 class="text-secondary">Unified Mentor</h6>
+            <p>
+              <li>Utilized Python for data cleaning, analysis, and visualization, improving data processing efficiency.</li>
+              <li>Created interactive dashboards in Tableau to present key insights, enhancing decision-making processes.</li>
+              <li>Analyzed large datasets to identify trends, patterns, and actionable insights.</li>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>    
+
+    <!-- projects -->
+    <section id="projects" class="px-2 px-md-5 py-5 bg-light">
+      <div class="container p-sm-0 p-md-3 p-lg-5">
+        <p class="text-muted">MY WORK</p>
+        <h2 class="mb-4">Projects</h2>
+    
+        <!-- Filter Buttons -->
+        <div class="mb-4 py-5">
+          <button class="btn btn-dark filter-button mb-2" data-filter="all">All</button>
+          <button class="btn btn-outline-dark filter-button mb-2" data-filter="web">Web Development</button>
+          <button class="btn btn-outline-dark filter-button mb-2" data-filter="data">Data Analytics</button>
+          <button class="btn btn-outline-dark filter-button mb-2" data-filter="ml">Machine Learning</button>
+        </div>
+    
+        <!-- Project Cards -->
+        <div class="row" id="project-container">
+          <div class="col-lg-6 col-md-9 col-sm-12 mb-4 project-card" data-category="web">
+            <div class="card">
+              <img src="assets/images/project-1.png" class="card-img" height="250px" alt="Project 1">
+              <div class="card-body bg-opacity-10 bg-light">
+                <div class="d-flex justify-content-between align-items-start mb-2">
+                  <h5 class="card-title">Pato Place</h5>
+                  <a href="https://nishumehta.github.io/Pato-Place-Custom/" class="btn project-link p-0" target="_blank">View Project</a>
+                </div>
+                <p class="card-text">'Pato Place' is a frontend restaurant website built with HTML, CSS, Bootstrap, and JavaScript. It is inspired by the 'Pato Place' template from Colorlib.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-9 col-sm-12 mb-4 project-card" data-category="data">
+            <div class="card">
+              <img src="assets/images/project-2.png" class="card-img" height="250px" alt="Project 2">
+              <div class="card-body bg-opacity-10 bg-light">
+                <div class="d-flex justify-content-between align-items-start mb-2">
+                  <h5 class="card-title">Data Professional Survey Analysis</h5>
+                  <a href="https://github.com/NishuMehta/Data-Professional-Survey-Analysis/blob/main/DataProfessionalSurvey-Report.pdf" class="btn project-link p-0" target="_blank">View Project</a>
+                </div>
+                <p class="card-text">'Pato Place' is a frontend restaurant website built with HTML, CSS, Bootstrap, and JavaScript. It is inspired by the 'Pato Place' template from Colorlib.</p>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-9 col-sm-12 mb-4 project-card" data-category="data">
+            <div class="card">
+              <img src="assets/images/project-3.png" class="card-img" height="250px" alt="Project 3">
+              <div class="card-body bg-opacity-10 bg-light">
+                <div class="d-flex justify-content-between align-items-start mb-2">
+                  <h5 class="card-title">House Sales Analysis</h5>
+                  <a href="https://github.com/NishuMehta/House-Sales-Analysis/blob/main/HouseSalesAnalysis.png" class="btn project-link p-0" target="_blank">View Project</a>
+                </div>
+                <p class="card-text">'Pato Place' is a frontend restaurant website built with HTML, CSS, Bootstrap, and JavaScript. It is inspired by the 'Pato Place' template from Colorlib.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-9 col-sm-12 mb-4 project-card" data-category="web">
+            <div class="card">
+              <img src="assets/images/project-1.png" class="card-img" height="250px" alt="Project 1">
+              <div class="card-body bg-opacity-10 bg-light">
+                <div class="d-flex justify-content-between align-items-start mb-2">
+                  <h5 class="card-title">Pato Place</h5>
+                  <a href="https://nishumehta.github.io/Pato-Place-Custom/" class="btn project-link p-0" target="_blank">View Project</a>
+                </div>
+                <p class="card-text">'Pato Place' is a frontend restaurant website built with HTML, CSS, Bootstrap, and JavaScript. It is inspired by the 'Pato Place' template from Colorlib.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-9 col-sm-12 mb-4 project-card" data-category="web">
+            <div class="card">
+              <img src="assets/images/project-1.png" class="card-img" height="250px" alt="Project 1">
+              <div class="card-body bg-opacity-10 bg-light">
+                <div class="d-flex justify-content-between align-items-start mb-2">
+                  <h5 class="card-title">Pato Place</h5>
+                  <a href="https://nishumehta.github.io/Pato-Place-Custom/" class="btn project-link p-0" target="_blank">View Project</a>
+                </div>
+                <p class="card-text">'Pato Place' is a frontend restaurant website built with HTML, CSS, Bootstrap, and JavaScript. It is inspired by the 'Pato Place' template from Colorlib.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-9 col-sm-12 mb-4 project-card" data-category="data">
+            <div class="card">
+              <img src="assets/images/project-3.png" class="card-img" height="250px" alt="Project 3">
+              <div class="card-body bg-opacity-10 bg-light">
+                <div class="d-flex justify-content-between align-items-start mb-2">
+                  <h5 class="card-title">House Sales Analysis</h5>
+                  <a href="https://github.com/NishuMehta/House-Sales-Analysis/blob/main/HouseSalesAnalysis.png" class="btn project-link p-0" target="_blank">View Project</a>
+                </div>
+                <p class="card-text">'Pato Place' is a frontend restaurant website built with HTML, CSS, Bootstrap, and JavaScript. It is inspired by the 'Pato Place' template from Colorlib.</p>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-6 col-md-9 col-sm-12 mb-4 project-card" data-category="ml">
+            <div class="card">
+              <img src="assets/images/project3.jpg" class="card-img-top" alt="Project 3">
+              <div class="card-body text-center">
+                <h5 class="card-title">Machine Learning Project</h5>
+                <p class="card-text">Description of the ML project.</p>
+                <a href="https://github.com/yourusername/project3" class="btn btn-outline-danger" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Contact Section -->
+    <section id="contact" class="px-2 px-md-5 py-5">
+      <div class="container p-sm-0 p-md-3 p-lg-5 ">
+        <p class="text-muted">GET IN TOUCH</p>
+        <h2 class="mb-4">Contact</h2>
+        <div class="row py-5 justify-content-center">
+          <div class="col-sm-12 mb-5 col-md-5 ">
+            <div class="d-flex justify-content-start align-items-center mb-4">
+              <div class="icon-image d-flex justify-content-center align-items-center bg-secondary-subtle me-4">
+                <i class="fa-solid fs-3 fa-envelope colored text-black"></i>
+              </div>
+              <div class="icon-text"> 
+                <a href="mailto:mehtanishu018@gmail.com" target="_blank"  class="">Get in touch</a>
+              </div>
+            </div>
+            <div class="d-flex justify-content-start align-items-center mb-4">
+              <div class="icon-image d-flex justify-content-center align-items-center bg-secondary-subtle me-4">
+                <i class="fab fs-3 fa-github colored text-black"></i>
+              </div>
+              <div class="icon-text"> 
+                <a href="https://github.com/NishuMehta" target="_blank" class="">Check out <br> my GitHub</a>
+              </div>
+            </div>
+            <div class="d-flex justify-content-start align-items-center mb-4">
+              <div class="icon-image d-flex justify-content-center align-items-center bg-secondary-subtle me-4">
+                <i class="fab fs-3 fa-linkedin-in colored text-black"></i>
+              </div>
+              <div class="icon-text"> 
+                <a href="https://www.linkedin.com/in/nishu-mehta-9025a323b/" target="_blank" class="">Connect with me <br> on LinkedIn</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-7">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="yourname@example.com" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your message..." required></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-danger">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+  
+
+</html>

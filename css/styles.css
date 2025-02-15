@@ -1,0 +1,239 @@
+body{
+  width:80%;
+  float:right;
+  padding: 0;
+  margin: 0;
+}
+.side-navbar{
+  width:20%;
+  padding:0;
+  margin:0;
+}
+
+/* font-family */
+
+#home, #about, #skills, #education, #experience, #projects, #contact{
+  font-family: 'Quicksand', sans-serif;
+}
+
+#home h2, #about h2, #skills h2, #education h2, #experience h2, #projects h2, #contact h2{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+/* home */
+.hero-section {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+              url('assets/images/img_bg_2.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.hero-section .btn {
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+}
+
+
+/* side navbar */
+
+
+.side-navbar {
+  /* width: 200px; */
+  background-color: #fff;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  z-index: 1030;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.profile-img {
+  /* border: 3px solid #0d6efd; */
+  object-fit: cover;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #000;
+  text-decoration: none;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav .nav-link {
+  font-size: 0.8rem;
+  color: #000;
+  transition: color 0.3s;
+}
+
+.nav .nav-link:hover {
+  color: var(--bs-danger);
+}
+  
+.social-links a {
+  font-size: 1.2rem;
+  color: #000;
+  transition: color 0.3s; 
+}
+
+.social-links a:hover {
+  color: var(--bs-danger);   
+  text-decoration: none; 
+}
+
+.side-navbar {
+  transition: transform 0.3s ease-in-out;
+  width: 20%;
+  z-index: 1050;
+}
+@media (max-width: 992px) {
+  #sidebar {
+    transform: translateX(-100%);
+    width: 250px;
+  }
+  #sidebar.active {
+    transform: translateX(0);
+  }
+  body{
+    width:100%;
+  }
+}
+
+/* about section */
+
+#about {
+  padding: 60px 0;
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+#about .btn {
+  padding: 10px 25px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+}
+
+/* skills*/
+
+.list-group-item {
+  background-color: transparent;
+  border: none;
+  padding: 10px 0;
+}
+
+.skill-icons img{
+  margin: 0 15px 0 0;
+}
+
+/* education */
+
+.card {
+  border-radius: 15px;
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.card h4 {
+  font-weight: 600;
+}
+
+.card h6, .card p {
+  margin-bottom: 0.5rem;
+}
+
+/* experience */
+
+h4 {
+  font-weight: 600;
+}
+
+h6 {
+  font-weight: 500;
+}
+
+/* project section */
+
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.project-link{
+  border: none;
+  text-decoration: none;
+  color: var(--bs-danger);
+}
+.project-link:hover{
+  border: none;
+
+  color: var(--bs-danger);
+  font-weight: bold;
+}
+
+/* contact section */
+
+.icon-image{
+  width:80px;
+  height:80px;
+}
+.icon-text a {
+  color: black;              
+  text-decoration: none;     
+  font-weight: normal;     
+}
+
+.icon-text a:hover {
+  color: var(--bs-danger);   
+  text-decoration: none; 
+}
+
+.form-control {
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.btn-primary {
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+}
+
+
+  
